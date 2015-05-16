@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<form string="Convenios" col="4">
+    <label name="codigo"/>
+    <field name="codigo"/>
+    <label name="monto"/>
+    <field name="monto"/>
+    <label name="descripcion"/>
+    <field name="descripcion"/>
+    <label name="tipo_convenio"/>
+    <field name="tipo_convenio" widget="selection" />
+    <label name="cuenta_debito"/>
+    <field name="cuenta_debito"/>
+    <label name="cuenta_credito"/>
+    <field name="cuenta_credito"/>
+</form>

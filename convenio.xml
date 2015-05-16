@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tryton>
+    <data>
+        <!-- Forms y trees --> 
+        <record model="ir.ui.view" id="convenio_view_form">
+            <field name="model">convenios.convenio</field>
+            <field name="type">form</field>
+            <field name="name">convenio_form</field>
+        </record>
+        <record model="ir.ui.view" id="convenio_view_tree">
+            <field name="model">convenios.convenio</field>
+            <field name="type">tree</field>
+            <field name="name">convenio_tree</field>
+        </record>
+
+        <!-- act_window --> 
+        <record id="act_convenio_form" model="ir.action.act_window">
+            <field name="name">Convenios</field>
+            <field name="res_model">convenios.convenio</field>
+            <field name="search_value"/>
+        </record>
+
+        <!-- Menus --> 
+        <menuitem name="Convenios" sequence="0" id="menu_convenio_padre"/>
+        <menuitem sequence="0" action="act_convenio_form" icon="tryton-list" id="menu_convenio_form" parent="menu_convenio_padre"/>
+    </data>
+</tryton>

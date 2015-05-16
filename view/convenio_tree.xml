@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<tree string="Convenios">
+    <field name="codigo"/>
+    <field name="monto"/>
+    <field name="tipo_convenio"/>
+</tree>
